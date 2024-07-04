@@ -1,0 +1,76 @@
+[class*="__container"]{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: "Archivo";
+ }
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+html,
+body{
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+.wrapper{
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.main {
+	flex: 1 1 auto;	
+}
+.main.active{
+	opacity: 0.2;
+	position: relative;
+	z-index: 0;
+}
+:root{
+	--header-logo-dark-blue: #5DA2D5;
+	--yellow: #F3D250;
+	--background-light-grey:#ECECEC;
+	--grey: #656363;
+	--pink: #F78888;
+	--light-blue: #90CCF4;
+	--white: #FFFFFF;
+}
+
+
